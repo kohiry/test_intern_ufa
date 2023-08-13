@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "testint-task"
+version = "0.1.0"
+description = ""
+authors = ["kohiry <kohiry@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.101.0"
+
+[tool.poetry.group.dev.dependencies]
+fastapi = {extras = ["all\\"], version = "^0.101.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
