@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.11"
 fastapi = "^0.101.0"
 uvicorn = "^0.23.2"
+pytz = "^2023.3"
 
 [tool.poetry.group.dev.dependencies]
 fastapi = {extras = ["all\\"], version = "^0.101.0"}
