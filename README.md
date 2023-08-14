@@ -11,7 +11,7 @@ Stack: `Python, FastAPI, poetry, docker`
 * Второй:
     - `docker-compose up`
 
->[!IMPORTANT]
+> [!IMPORTANT]
 > После вы сможете найти сервис на: **0.0.0.0:8000/docs**
 
 # Описание методов
